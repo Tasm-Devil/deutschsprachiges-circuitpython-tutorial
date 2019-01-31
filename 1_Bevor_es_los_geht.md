@@ -1,24 +1,24 @@
-###Überblick
+### Überblick
 
-####Was ist Circuitpython?
+#### Was ist Circuitpython?
 
 
 
-####Welche Hardware benötige ich?
+#### Welche Hardware benötige ich?
 
-####Treiber installieren (Nur Windows)
+#### Treiber installieren (Nur Windows)
 
-####Den MU Editor installieren
+#### Den MU Editor installieren
 
-###Hardware vorbereiten
+### Hardware vorbereiten
 
-####Circuitpython updaten
+#### Circuitpython updaten
 
-###Aufbau des Unterrichts
+### Aufbau des Unterrichts
 
-###Weitere Informationen
+### Weitere Informationen
 
-####Links zu englischsprachigen Anleitungen
+#### Links zu englischsprachigen Anleitungen
 
 * [welcome-to-circuitpython](https://learn.adafruit.com/welcome-to-circuitpython)
 * [circuitpython-built-ins](https://learn.adafruit.com/adafruit-circuit-playground-express/circuitpython-built-ins)

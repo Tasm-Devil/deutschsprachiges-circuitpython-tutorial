@@ -9,7 +9,7 @@ Basics
 |[AliExpress](https://www.aliexpress.com/item/140-Pcs-U-Shape-Shield-Solderless-Breadboard-Jumper-Cable-Wires-Kit-for-Arduino/32230235592.html) | 1,71 €
   * Dupont Kabel m zu m 40 Stk
 |[AliExpress](https://www.aliexpress.com/item/40PCS-Dupont-10CM-Male-To-Male-Jumper-Wire-Ribbon-Cable-for-Arduino/32729488951.html) | 0,88 €
-  * Dupont Kabel m zu w 40 Stk |[AliExpress](https://www.aliexpress.com/item/40PCS-Dupont-10CM-Male-To-Female-Jumper-Wire-Ribbon-Cable-for-Arduino/32728729872.html) | 0,94 €
+  * Dupont Kabel m zu w 40 Stk |[AliExpress](https://de.aliexpress.com/item/Free-shipping-Dupont-line-120pcs-10cm-male-to-male-male-to-female-and-female-to-female/2041500641.html) | 0,60 €
   * Widerstände |
   * Kondensatoren |
   * Mikro-USB-Kabel |

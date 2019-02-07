@@ -1,4 +1,4 @@
-### Überblick
+## Überblick
 
 ![adafruit-nrf52840-feather](https://cdn-learn.adafruit.com/assets/assets/000/068/597/large1024/circuitpython_4062_kit_ORIG_2018_12.jpg)
 
@@ -21,7 +21,9 @@ Zum ersten Mal ist es möglich Programme direkt auf dem Mikrocontroller zu bearb
 
 ![circuitpython_python-logo-master-flat.png](https://cdn-learn.adafruit.com/assets/assets/000/049/445/original/circuitpython_python-logo-master-flat.png)
 
-CircuitPython basiert auf Python. Python ist die am schnellsten wachsende Programmiersprache. Sie wird an Schulen und an Universitäten gelehrt. Dabei handelt sich um eine Programmiersprache, die einfacher zu lesen, zu schreiben und zu warten ist (als beispielsweise C oder C++). Module und Pakete ermöglichen es dir, dass du deinen Code problemlos für andere Projekte wiederverwenden kannst. Python hat einen eingebauten Interpreter, was bedeutet, dass es keine zusätzlichen Schritte wie das Kompilieren gibt, um deinen Code zum Laufen zu bringen. Und natürlich ist Python Open Source Software, das heißt, es ist jedem frei, Python zu nutzen, zu modifizieren oder zu verbessern.
+CircuitPython basiert auf Python. Python ist die am schnellsten wachsende Programmiersprache. Sie wird an Schulen und an Universitäten gelehrt. Dabei handelt sich um eine Programmiersprache, die einfacher zu lesen, zu schreiben und zu warten ist (als beispielsweise C oder C++).
+
+Module und Pakete ermöglichen es dir, dass du deinen Code problemlos für andere Projekte wiederverwenden kannst. Python hat einen eingebauten Interpreter, was bedeutet, dass es keine zusätzlichen Schritte wie das Kompilieren gibt, um deinen Code zum Laufen zu bringen. Und natürlich ist Python Open Source Software, das heißt, es ist jedem frei, Python zu nutzen, zu modifizieren oder zu verbessern.
 
 CircuitPython erweitert den gewaltigen Funktionsumfang von Python um die Hardwareunterstützung für solche Boards wie das, dass du möglicherweise gerade in den Händen hältst. Wenn du bereits über Python-Kenntnisse verfügst, wirst du diese leicht auf CircuitPython anwenden können. Wenn du noch keine Erfahrung hast, wist du ganz einfach loslegen können! Wir werden bei Null anfangen.
 

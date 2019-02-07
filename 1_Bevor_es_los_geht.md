@@ -1,5 +1,7 @@
 ### Überblick
 
+![adafruit-nrf52840-feather](https://cdn-learn.adafruit.com/assets/assets/000/068/597/large1024/circuitpython_4062_kit_ORIG_2018_12.jpg)
+
 Vielleicht hältst du gerade eine kleine Platine in den Händen und weiß nicht so recht, was du damit anfangen sollst. Vielleicht hast du sie schon mal an deinen Computer angeschlossen und vielleicht wurde sie sogar schon als Laufwerk mit dem Namen CIRCUITPY angezeigt. Vielleicht aber auch nicht. Auf alle Fälle ist eines aber sicher: Du bist hier, weil du wissen möchtest, wie es weiter geht und was du mit deiner Mikrocontroller-Platine alles anfangen kannst.
 
 **Dieser Kurs möchte dir zeigen, wie du mit CircuitPython loslegen und tolle Dinge erschaffen kannst!**

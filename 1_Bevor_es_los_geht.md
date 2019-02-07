@@ -1,44 +1,49 @@
 ### Überblick
-Sie haben also diese neue, mit CircuitPython kompatible Karte. Sie haben es angeschlossen. Vielleicht wurde es als Laufwerk mit dem Namen CIRCUITPY angezeigt. Vielleicht nicht Auf jeden Fall müssen Sie wissen, wohin Sie von hier aus gehen müssen. Nun, wir haben Sie abgedeckt!
 
-In diesem Handbuch werden Sie mit CircuitPython loslegen!
-Es gibt viele erstaunliche Dinge in Ihrem neuen Board. Eine davon ist die Möglichkeit, CircuitPython auszuführen. Möglicherweise haben Sie diesen Namen irgendwo auf der Adafruit-Site gesehen. Nicht sicher was es ist? Wir können helfen!
+Vielleicht hältst du gerade eine kleine Platine in den Händen und weiß nicht so recht, was du damit anfangen sollst, vielleicht hast du es schon an deinen Computer angeschlossen und vielleicht wurde es sogar schon als Laufwerk mit dem Namen CIRCUITPY angezeigt. Vielleicht aber auch nicht. Auf alle Fälle ist eines aber sicher: Du bist hier, weil du wissen möchtest, wie es weiter geht und was du mit deiner Platine alles anfangen kannst. 
 
-"Aber ich habe noch nie in meinem Leben codiert. Ich kann es auf keinen Fall tun!" Sie können absolut! CircuitPython soll Ihnen dabei helfen, von Grund auf zu lernen. Wenn Sie alles neu sind, können Sie hier anfangen!
+Dieser Kurs möchte dir zeigen, wie du mit CircuitPython loslegen und tolle Dinge erschaffen kannst!
 
-In diesem Handbuch erfahren Sie, wie Sie mit CircuitPython beginnen. Sie erfahren, wie Sie CircuitPython installieren, auf die neueste Version von CircuitPython aktualisiert werden, wie Sie eine serielle Verbindung einrichten und die Dateien bearbeiten.
+Es gibt unvorstellbar viele Möglichkeiten, was du mit deinem neuen Board anfangen kannst. Auf alle Fälle wirst du dazu eine neue Programmiersprache lernen dürfen. Sehr wahrscheinlich hast du noch nie etwas von Circuitpython gehört. Das macht nichts den hier lernst du (fast) alles, was du brauchst um gleich mit dem Programmieren los legen zu können.
+
+"Aber ich habe noch nie in meinem Leben programmiert. Das lerne ich niemals!" Ganz im Gegenteil! Dank CircuitPython wirst du sehr rasch lernen, wie einfach Programmieren sein kann und wie viel Spaß man damit haben kann. Wenn das für dich alles Neuland ist, bist du hier genau richtig!
+
+In diesem Kurs erfährst du, wie du mit CircuitPython loslegst. Vorher erfährst du, wie du CircuitPython installierst, wie du es auf die neueste Version von CircuitPython aktualisieren kannst, wie du eine serielle Verbindung einrichtest und wie du die Dateien auf deinem Board bearbeitest.
 
 Willkommen bei CircuitPython!
 
 #### Was ist Circuitpython?
-Was ist CircuitPython? von Kattni Rembor
-CircuitPython ist eine Programmiersprache, die das Experimentieren und Erlernen des Programmierens auf kostengünstigen Mikrocontroller-Boards vereinfacht. Es macht den Einstieg einfacher als je zuvor, ohne dass Desktop-Downloads erforderlich sind. Wenn Sie Ihr Board eingerichtet haben, öffnen Sie einen beliebigen Texteditor und beginnen Sie mit der Bearbeitung von Code. So einfach ist das.
+CircuitPython ist eine Programmiersprache, die das Experimentieren und Erlernen des Programmierens auf kostengünstigen Mikrocontroller-Boards vereinfacht. Der Einstieg in die Mikrocontrollerprogrammierung wird einfacher als je zuvor.
+Zum ersten Mal ist es möglich Programme direkt auf dem Mikrocontroller zu bearbeiten und das ohne das dazu eine spezielle Desktop-App installiert werden muss. Wenn dein Board eingerichtet ist, öffnest du einen beliebigen Texteditor und beginnst einfach mit der Bearbeitung deines Programmcodes.
 
 ![circuitpython_python-logo-master-flat.png](https://cdn-learn.adafruit.com/assets/assets/000/049/445/original/circuitpython_python-logo-master-flat.png)
 
-CircuitPython basiert auf Python
-Python ist die am schnellsten wachsende Programmiersprache. Es wird in Schulen und Universitäten gelehrt. Es handelt sich um eine Programmiersprache auf hoher Ebene, die einfacher zu lesen, zu schreiben und zu warten ist. Es unterstützt Module und Pakete, sodass Sie den Code problemlos für andere Projekte wiederverwenden können. Es hat einen eingebauten Interpreter, was bedeutet, dass es keine zusätzlichen Schritte wie das Kompilieren gibt, um Ihren Code zum Laufen zu bringen. Und natürlich ist Python Open Source Software, das heißt, es ist für jeden frei, ihn zu benutzen, zu modifizieren oder zu verbessern.
+CircuitPython basiert auf Python. Python ist die am schnellsten wachsende Programmiersprache. Sie wird an Schulen und an Universitäten gelehrt. Dabei handelt sich um eine Programmiersprache, die einfacher zu lesen, zu schreiben und zu warten ist (als beispielsweise C oder C++). Module und Pakete ermöglichen es dir, dass du deinen Code problemlos für andere Projekte wiederverwenden kannst. Python hat einen eingebauten Interpreter, was bedeutet, dass es keine zusätzlichen Schritte wie das Kompilieren gibt, um deinen Code zum Laufen zu bringen. Und natürlich ist Python Open Source Software, das heißt, es ist jedem frei, Python zu nutzen, zu modifizieren oder zu verbessern.
 
-CircuitPython fügt allen diesen erstaunlichen Funktionen Hardwareunterstützung hinzu. Wenn Sie bereits über Python-Kenntnisse verfügen, können Sie diese leicht auf CircuitPython anwenden. Wenn Sie noch keine Erfahrung haben, können Sie ganz einfach loslegen!
+CircuitPython erweitert den gewaltigen Funktionsumfang von Python um die Hardwareunterstützung für solche Boards wie das, dass du möglicherweise gerade in den Händen hältst. Wenn du bereits über Python-Kenntnisse verfügst, wirst du diese leicht auf CircuitPython anwenden können. Wenn du noch keine Erfahrung hast, wist du ganz einfach loslegen können! Wir werden bei Null anfangen.
 
 ![circuitpython_circuit_playground_adafruit_blinka_computer.png](https://cdn-learn.adafruit.com/assets/assets/000/049/441/original/circuitpython_circuit_playground_adafruit_blinka_computer.png)
 
 Warum sollte ich CircuitPython verwenden?
-CircuitPython kann auf Mikrocontroller-Boards ausgeführt werden. Eine Mikrocontrollerplatine ist eine Platine mit einem Mikrocontrollerchip, der im Wesentlichen ein recht kleiner All-in-One-Computer ist. Das Board, das Sie in der Hand halten, ist ein Mikrocontroller-Board! CircuitPython ist einfach zu bedienen, da Sie nur ein kleines Board, ein USB-Kabel und einen Computer mit USB-Anschluss benötigen. Aber das ist nur der Anfang.
+CircuitPython kann auf Mikrocontroller-Boards ausgeführt werden. Eine Mikrocontrollerplatine ist eine Platine mit einem Mikrocontrollerchip, der im Wesentlichen ein recht kleiner All-in-One-Computer ist. Das Board, das Sie in der Hand halten, ist ein Mikrocontroller-Board! CircuitPython ist einfach zu bedienen, da Sie nur ein kleines Board, ein USB-Kabel und einen Computer mit USB-Anschluss benötigen. Aber das ist noch nicht alles.
 
-Andere Gründe für die Verwendung von CircuitPython sind:
+Andere Gründe, die für die Verwendung von CircuitPython sprechen:
 
-Sie möchten schnell loslegen. Erstellen Sie eine Datei, bearbeiten Sie Ihren Code, speichern Sie die Datei und sie wird sofort ausgeführt. Es wird kein Kompilieren, kein Download und kein Upload benötigt.
-Sie sind neu in der Programmierung. CircuitPython ist auf Bildung ausgerichtet. Es ist einfach, mit dem Programmieren zu beginnen, und Sie erhalten sofort ein Feedback vom Board.
-Aktualisieren Sie einfach Ihren Code. Da sich Ihr Code auf dem Laufwerk befindet, können Sie ihn jederzeit bearbeiten. Sie können auch mehrere Dateien für ein einfaches Experimentieren aufbewahren.
-Die serielle Konsole und REPL. Diese ermöglichen ein Live-Feedback aus Ihrem Code und eine interaktive Programmierung.
-Dateispeicher. Der interne Speicher für CircuitPython eignet sich hervorragend für die Datenprotokollierung, die Wiedergabe von Audioclips und die anderweitige Interaktion mit Dateien.
-Starke Hardware-Unterstützung. Es gibt viele Bibliotheken und Treiber für Sensoren, Breakout-Boards und andere externe Komponenten.
-Es ist Python! Python ist die am schnellsten wachsende Programmiersprache. Es wird in Schulen und Universitäten gelehrt. CircuitPython ist fast vollständig mit Python kompatibel. Es wird einfach Hardwareunterstützung hinzugefügt.
-Das ist erst der Anfang. CircuitPython entwickelt sich ständig weiter und wird ständig aktualisiert. Wir begrüßen und ermutigen das Feedback der Community und integrieren dies in unsere Entwicklung von CircuitPython. Das ist der Kern des Open Source-Konzepts. Dies macht CircuitPython für Sie und jeden, der es verwendet, besser!
+* **Du willst ohne komplizierte Installationen schnell und einfach loslegen.** Erstelle eine Datei, bearbeite Sie, speichere Sie ab und das Programm wird sofort ausgeführt. Kein Kompilieren, kein Download und kein Upload ist mehr nötig.
 
+* **Du willst das Programmieren lernen.** CircuitPython war von Anfang an auf den Bildungsbereich ausgerichtet. Es ist einfach, mit dem Programmieren zu beginnen, und du erhältst sofort ein Feedback von deinem Board. Fehlersuche war noch nie so einfach.
 
-#### Welche Hardware benötige ich?
+* **Aktualisieren deinen Code so einfach wie nie.** Da sich dein Code auf dem Laufwerk befindet, kannst du ihn jederzeit bearbeiten. Du kannst natürlich auch gleich mehrere unterschiedliche Programme auf dem Board abspeichern und beim Experimentieren entscheidest du, welches du ausführen möchtest.
+
+* **Die serielle Konsole und der REPL** ermöglichen ein Live-Feedback aus deinem Code und eine interaktive Programmierung.
+
+* **Dateispeicher.** Der interne Speicher für CircuitPython eignet sich hervorragend für das Loggen von Messwerten und anderen Daten sowie für die Wiedergabe von Audioclips und jede anderweitige Interaktion mit Dateien.
+
+* **Sehr umfangreiche Hardware-Unterstützung.** Es gibt viele Bibliotheken und Treiber für Sensoren, Breakout-Boards und andere externe Komponenten.
+
+* **Es ist Python!** Python ist die, zu Zeit am schnellsten wachsende Programmiersprache. Aufgrund ihrer leicht verständlichen Syntax wird sie gerne an Schulen und Universitäten gelehrt. CircuitPython ist fast vollständig mit Python kompatibel. Es wurde einfach eine Hardwareunterstützung für unterschiedliche Chips hinzugefügt.
+
+CircuitPython entwickelt sich ständig weiter und wird ständig aktualisiert. Jeder kann mit machen und Verbesserungsvorschläge machen oder sich sogar selbst am Entwicklungsprozess beteiligen. Es gibt sogar einen Discord-Kanal, in dem einem geholfen wird wenn man eine Frage hat. Man sollte seine Anliegen aber in englischer Sprache verfassen, da Circuitpython von Menschen auf der ganzen Welt entwickelt wird.
 
 #### Treiber installieren (Nur Windows)
 
